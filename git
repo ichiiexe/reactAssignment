@@ -1,0 +1,35 @@
+[33mcommit 83dd5b9f5562627943f1b13887c2a25a758273e2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Jefferson <jeffabuy@gmail.com>
+Date:   Thu May 23 07:39:00 2024 +0300
+
+    fixed colors
+
+[33mcommit f9ddc62b097fc0a46ebdfbbfbc52b1dd571f9677[m
+Author: Jefferson <jeffabuy@gmail.com>
+Date:   Thu May 23 07:32:06 2024 +0300
+
+    added SelectionItems
+
+[33mcommit 6dcda03b97560719e1fb1c8595ef07d5465c665f[m
+Author: Jefferson <jeffabuy@gmail.com>
+Date:   Thu May 23 07:09:40 2024 +0300
+
+    added DIV on ul
+
+[33mcommit d8d1933183aac81a40d54bd95ae042c891be8987[m
+Author: Jefferson <jeffabuy@gmail.com>
+Date:   Thu May 23 07:07:34 2024 +0300
+
+    added SectionTitle
+
+[33mcommit 4b7e36f2476770213e3b8f14ec62e84bb65e7e29[m
+Author: Jefferson <jeffabuy@gmail.com>
+Date:   Thu May 23 06:51:46 2024 +0300
+
+    tailwind.config - content
+
+[33mcommit 2e4d1bd0fe1bd561db7337823b4fc5b0399f4c63[m
+Author: Jefferson <jeffabuy@gmail.com>
+Date:   Thu May 23 06:50:34 2024 +0300
+
+    added TailwindCSS
