@@ -18,11 +18,11 @@ export function Section(props) {
 
   return (
     <>
-      <li className="p-4 flex flex-col gap-3">
+      <li className="px-4 flex flex-col gap-3">
         <div className="bg-blue-600 text-white p-4 rounded-lg w-full after:text-white flex justify-between">
           {props.title}
         </div>
-        <div>{ListItem}</div>
+        <div className="w-full p-4 bg-white rounded-md">{ListItem}</div>
       </li>
       ;
     </>
