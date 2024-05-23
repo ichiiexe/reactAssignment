@@ -35,7 +35,6 @@ export function Section(props) {
           {ListItem}
         </div>
       </li>
-      ;
     </>
   );
 }
