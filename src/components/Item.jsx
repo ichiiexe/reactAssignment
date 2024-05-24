@@ -16,6 +16,18 @@ export function Section(props) {
     </div>
   ));
 
+  const userItem = users.data.map((user, index) => (
+    <div
+      key={index}
+      className="flex justify-between  border-black/10 border-b pb-4"
+    >
+      <h1>
+        {user.first_name} {user.last_name}
+      </h1>
+      <input type="checkbox" onChange={checkboxChange} />
+    </div>
+  ));
+
   return (
     <>
       <li className="px-4 flex flex-col gap-3">
