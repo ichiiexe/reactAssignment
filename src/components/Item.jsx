@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export function Section(props) {
+  //input//
   const [dropDown, setDropDown] = useState(false);
   const toggleDropDown = () => {
     setDropDown(!dropDown);
@@ -16,6 +17,7 @@ export function Section(props) {
     </div>
   ));
 
+  //user//
   const userItem = users.data.map((user, index) => (
     <div
       key={index}

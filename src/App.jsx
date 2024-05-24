@@ -8,10 +8,10 @@ function App() {
           <h1 className="mb-6 font-bold text-3xl text-center">
             Expandable Form
           </h1>
-          <Section title="Section 1" text={["Name:", "Email:"]} />
-          <Section title="Section 2" text={["Address:", "City:"]} />
-          <Section title="Section 3" text={["Phone:", "Website:"]} />
-          <Section title="Section 4" />
+          <Section title="Section 1" key={1} text={["Name:", "Email:"]} />
+          <Section title="Section 2" key={2} text={["Address:", "City"]} />
+          <Section title="Section 3" key={3} text={["Phone", "Website"]} />
+          <Section title="Section 4" key={4} text={[]} />
         </ul>
       </div>
     </>
