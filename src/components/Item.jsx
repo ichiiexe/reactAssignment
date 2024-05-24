@@ -1,4 +1,7 @@
 import { useState } from "react";
+import { getUsers } from "./getUser";
+
+const users = await getUsers();
 
 export function Section(props) {
   //input//
