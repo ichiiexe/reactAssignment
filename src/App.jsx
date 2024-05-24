@@ -11,6 +11,7 @@ function App() {
           <Section title="Section 1" text={["Name:", "Email:"]} />
           <Section title="Section 2" text={["Address:", "City:"]} />
           <Section title="Section 3" text={["Phone:", "Website:"]} />
+          <Section title="Section 4" />
         </ul>
       </div>
     </>
