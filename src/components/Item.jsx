@@ -54,7 +54,7 @@ export function Section(props) {
           {props.title}
         </div>
         <div
-          className={`w-full p-4 bg-white rounded-md border border-black/15 ${
+          className={`w-full flex flex-col gap-5 p-4 bg-white rounded-md border border-black/15 ${
             !dropDown ? "hidden" : ""
           }`}
         >
