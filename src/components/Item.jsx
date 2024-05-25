@@ -51,7 +51,13 @@ export function Section(props) {
             !dropDown ? "after:content-['+']" : "after:content-['-']"
           }`}
         >
-          {props.title}
+          {ListItem.length === 0
+            ? `${props.title} ${
+                checkedBox === 0
+                  ? ""
+                  : `(${checkedBox} selected user${checkedBox >= 2 ? "s" : ""})`
+              }`
+            : props.title}
         </div>
         <div
           className={`w-full flex flex-col gap-5 p-4 bg-white rounded-md border border-black/15 ${
