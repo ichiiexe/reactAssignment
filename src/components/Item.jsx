@@ -21,6 +21,9 @@ export function Section(props) {
   ));
 
   //user//
+  const [checkedBox, setCheckedBox] = useState(0);
+  const checkboxChange = (event) => {};
+
   const userItem = users.data.map((user, index) => (
     <div
       key={index}
