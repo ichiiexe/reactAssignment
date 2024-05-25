@@ -53,7 +53,7 @@ export function Section(props) {
         >
           {ListItem.length === 0
             ? `${props.title} ${
-                checkedBox === 0
+                dropDown
                   ? ""
                   : `(${checkedBox} selected user${checkedBox >= 2 ? "s" : ""})`
               }`
