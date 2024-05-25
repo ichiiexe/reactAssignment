@@ -22,7 +22,13 @@ export function Section(props) {
 
   //user//
   const [checkedBox, setCheckedBox] = useState(0);
-  const checkboxChange = (event) => {};
+  const checkboxChange = (event) => {
+    if (event.target.checked) {
+      setCheckedBox(checkedBox + 1);
+    } else {
+      setCheckedBox(checkedBox - 1);
+    }
+  };
 
   const userItem = users.data.map((user, index) => (
     <div
@@ -52,7 +58,7 @@ export function Section(props) {
             !dropDown ? "hidden" : ""
           }`}
         >
-          {ListItem}
+          {ListItem.length === 0 ? userItem : ListItem}
         </div>
       </li>
     </>
